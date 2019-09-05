@@ -1,0 +1,45 @@
+name: mi_card
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - images/my.jpg
+    - images/dude.jpg
+
+  fonts:
+  - family: Pacifico
+    fonts:
+    - asset: font/Pacifico-Regular.ttf
+  - family: SourceSansPro
+    fonts:
+    - asset: font/SourceSansPro-ExtraLight.ttf
+  - family: Questrial
+    fonts:
+    - asset: font/Questrial-Regular.ttf
+  - family: Acme
+    fonts:
+    - asset: font/Acme-Regular.ttf
